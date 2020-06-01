@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1068078364950",
+    "firebase_url": "https://realtimebustracking-8ad63.firebaseio.com",
+    "project_id": "realtimebustracking-8ad63",
+    "storage_bucket": "realtimebustracking-8ad63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068078364950:android:98b8eaff5b1aed0f",
+        "android_client_info": {
+          "package_name": "com.example.a2m.rbt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068078364950-to5sa9ppah1nnrtavbn51vopaatd72oi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a2m.rbt",
+            "certificate_hash": "f24c8f9f4dd75c688709547ae599126e2ead4def"
+          }
+        },
+        {
+          "client_id": "1068078364950-bp5n0iq3fpb9db0ca5mo30t7hq5b12hf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVI-Zyk1AbpOMdBZnaKfhNDNnuRnSrbKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068078364950-bp5n0iq3fpb9db0ca5mo30t7hq5b12hf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

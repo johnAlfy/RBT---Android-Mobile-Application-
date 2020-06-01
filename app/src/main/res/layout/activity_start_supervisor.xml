@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.parentsNotifications">
+
+
+    <LinearLayout
+        android:translationX="-280dp"
+        android:id="@+id/mainMenu"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1E2E61"
+        >
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_back_black_24dp" />
+
+
+        <ImageView
+
+            android:layout_width="200dp"
+            android:layout_height="158dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/image" />
+
+        <Button
+            android:id="@+id/takeAttendance"
+            android:background="#1E2E61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="Take Attendance"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/showStudentsInformation"
+            android:background="#1E2E61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="Show Students Information"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:id="@+id/sendReport"
+            android:background="#1E2E61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="Send Report To Admin"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/LogOut"
+            android:background="#1E2E61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:text="Log Out"
+            android:layout_marginTop="2dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:layout_width="416dp"
+        android:layout_height="match_parent"
+        android:translationX="-280dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="416dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/menuButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_menu_black_24dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/messageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/message" />
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text=""
+                    android:id="@+id/newText"
+                    />
+            </LinearLayout>
+            <Button
+
+                android:id="@+id/settingButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_settings_black_24dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Notifications"
+                android:layout_marginLeft="45dp"
+                android:textSize="30dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp">
+            </TextView>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#fff"
+                android:dividerHeight="25dp"
+                android:id="@+id/list"
+                >
+
+
+            </ListView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
